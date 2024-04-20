@@ -1,5 +1,5 @@
 import React from "react";
-import project from "./data/projects.json";
+import project from "./images/data/projects.json";
 import image3 from './images/dice-eyes-luck-game-705171.webp'
 const Project =()=>{
     return(

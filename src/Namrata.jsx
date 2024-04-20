@@ -1,5 +1,5 @@
 import React from "react";
-import experience from "./data/namrata.json";
+import experience from "./images/data/namrata.json";
 
 const Namrata = () => {
   return (
