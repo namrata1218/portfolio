@@ -1,6 +1,6 @@
 import React from "react";
 import project from "./images/data/projects.json";
-import image3 from './images/dice-eyes-luck-game-705171.webp'
+
 const Project =()=>{
     return(
         <>
@@ -17,19 +17,19 @@ const Project =()=>{
                                   data-aos="flip-right"
                 data-aos-duration="1000">
                         <div className="img p-3 d-flex justify-content-center align-items-center" >
-                            <img src={image3} alt="..." 
+                        <img src={data.imageSrc} alt="..." 
                             style={{
                                 width:'250px',
                                 height:'200px',
                                 border:'2px solid #F8C90D',
                                 borderRadius:'10px'}}
-                  n      />
+                       />
                         </div>
   
   <div className="card-body text-center">
     <h5 className="card-title">{data.title}</h5>
     <p className="card-text">{data.description}</p>
-    <a href={data.demo} className="btn btn-primary mx-3">Demo</a>
+    
     <a href={data.source} className="btn btn-warning">Code</a>
   </div>
 </div>  </div></>

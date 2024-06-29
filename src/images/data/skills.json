@@ -22,5 +22,9 @@
   {
       "title": "React",
       "imageSrc": "../images/react.png"
+  },
+  {
+    "title":"C/C++",
+    "imageSrc":"../images/cppimages.png"
   }
 ]
