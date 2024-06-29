@@ -6,7 +6,7 @@ const Project =()=>{
         <>
         <div className="container project my-3" id="project">
             <h1>PROJECTS</h1>
-            <div className="row d-flex justify-content-center align-items-center">
+            <div className="row d-flex justify-content-center align-items-center gap-5">
                 {
                     project.map((data)=>(
                         <>

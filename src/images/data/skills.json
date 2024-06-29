@@ -26,5 +26,9 @@
   {
     "title":"C/C++",
     "imageSrc":"../images/cppimages.png"
+  },
+  {
+    "title":"MySql",
+    "imageSrc":"../images/mysql.png"
   }
 ]

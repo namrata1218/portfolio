@@ -11,7 +11,7 @@
       "key": 2,
       "title": "Dice Game",
       "imageSrc":"../images/dice.webp",
-      "description": "This is a project made with complete HTML, CSS,  React js.",
+      "description": "This is a project made with complete HTML, CSS,Javascript and React js.",
   
       "source": "https://www.github.com"
     },
@@ -20,7 +20,7 @@
       "key": 3,
       "title": "Shopping Website",
       "imageSrc": "../images/shop.png",
-      "description": "This is a project made with complete Next js and Tailwind CSS.",
+      "description": "This is a project made with complete Next js and Tailwind CSS.    .    ",
      
       "source": "https://shopping-website-y395-r5dq7im2o-namrata1218s-projects.vercel.app"
     },

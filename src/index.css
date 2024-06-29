@@ -90,6 +90,8 @@ a:hover{
         display: flex;
         flex-direction: column;
         align-content:flex-start ;
+    
+        
         
     } 
     .img img{
