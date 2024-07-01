@@ -11,10 +11,10 @@ const Contact=()=>{
         <div className="contact-icon"
         data-aos="zoom-in-up"
         data-aos-duratio="1000">
-            <a  target="_blank" href="https://www.linkedin.com/in/namrata-shakya-479313226/" className="items"><PiLinkedinLogoBold className="icons"/></a>
-            <a  target="_blank" href="https://github.com/namrata1218" className="items"><FaGithub className="icons"/></a>
-            <a  target="_blank" href="mailto:shakyanamrata18@gmail.com" className="items"><MdMailOutline className="icons"/></a>
-            <a  target="_blank" href="" className="items"><FaWhatsapp className="icons"/></a>
+            <a  target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/namrata-shakya-479313226/" className="items"><PiLinkedinLogoBold className="icons"/></a>
+            <a  target="_blank" rel="noopener noreferrer" href="https://github.com/namrata1218" className="items"><FaGithub className="icons"/></a>
+            <a  target="_blank" rel="noopener noreferrer"  href="mailto:shakyanamrata18@gmail.com" className="items"><MdMailOutline className="icons"/></a>
+            <a  target="_blank" rel="noopener noreferrer" href="https://wa.me/9369203390" className="items"><FaWhatsapp className="icons"/></a>
         </div>
         </div>
         </>

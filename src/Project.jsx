@@ -9,7 +9,7 @@ const Project =()=>{
             <div className="row d-flex justify-content-center align-items-center gap-5">
                 {
                     project.map((data)=>(
-                        <>
+                        
                         <div key={data.id} className="my-3 col-sm-6 col-md-4 col-lg-3 mx-3">
                         <div className="card bg-dark text-light" style={{width: '18rem',
                                   border:'2px solid #F8C90D',
@@ -17,7 +17,7 @@ const Project =()=>{
                                   data-aos="flip-right"
                 data-aos-duration="1000">
                         <div className="img p-3 d-flex justify-content-center align-items-center" >
-                        <img src={data.imageSrc} alt="..." 
+                        <img src={data.imageSrc} alt={data.title} 
                             style={{
                                 width:'250px',
                                 height:'200px',
@@ -32,7 +32,7 @@ const Project =()=>{
     
     <a href={data.source} className="btn btn-warning">Code</a>
   </div>
-</div>  </div></>
+</div>  </div>
                     ))
                 }
                 </div></div></>

@@ -1,6 +1,6 @@
 [
   {
-    "key": 1,
+    "key": 3,
     "title": "Stone, Paper and Scissors",
     "imageSrc": "../images/rpsgame.png",
     "description": "This is a project made with complete HTML, CSS and Javascript.",
@@ -8,16 +8,16 @@
     "source":"https://newproject-phi-drab.vercel.app/"
   } , 
   {
-      "key": 2,
+      "key": 5,
       "title": "Dice Game",
       "imageSrc":"../images/dice.webp",
       "description": "This is a project made with complete HTML, CSS,Javascript and React js.",
   
-      "source": "https://www.github.com"
+      "source": "https://github.com/namrata1218/dice_game"
     },
 
     {
-      "key": 3,
+      "key": 1,
       "title": "Shopping Website",
       "imageSrc": "../images/shop.png",
       "description": "This is a project made with complete Next js and Tailwind CSS.    .    ",
@@ -25,12 +25,20 @@
       "source": "https://shopping-website-y395-r5dq7im2o-namrata1218s-projects.vercel.app"
     },
     {
-      "key": 4,
+      "key": 2,
       "title": "My Portfolio",
       "imageSrc": "../images/portfolio.png",
       "description": "This is a project made with complete HTML, CSS, Javascript and React.js.",
       "source": "https://portfolio-pi-six-33.vercel.app/"
+    },
+    {
+      "key": 4,
+      "title": "Customer Segmentation",
+      "imageSrc": "../images/customer.png ",
+      "description":"Applied Python and machine learning for customer segmentation, optimizing marketing strategies, analyzed customer behavior with clustering algorithm.",
+      "source": "https://github.com/namrata1218/Customer_Segmentation"
     }
+
    
     
   ]
