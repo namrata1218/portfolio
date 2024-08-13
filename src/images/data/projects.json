@@ -1,6 +1,35 @@
 [
   {
+    "key": 1,
+    "title": "Dil Food App",
+    "imageSrc": "../images/foodapp.png ",
+    "description":"CSS, React.js, React Vite, MongoDB, Node.js ",
+    "source": "https://dil-foodapp.vercel.app/"
+  },
+  {
+    "key": 2,
+    "title": "Travel App",
+    "imageSrc": "../images/travel.png ",
+    "description":"HTML, CSS, SCSS, Javascript and React.js,",
+    "source": "https://travel-website-zeta-orpin.vercel.app/"
+  },
+  {
     "key": 3,
+    "title": "Shopping Website",
+    "imageSrc": "../images/shop.png",
+    "description": "This project is made with using HTML, CSS, Javascript, Next js and Tailwind CSS.    .    ",
+   
+    "source": "https://shopping-website-y395-r5dq7im2o-namrata1218s-projects.vercel.app"
+  },
+  {
+    "key": 4,
+    "title": "My Portfolio",
+    "imageSrc": "../images/portfolio.png",
+    "description": "This is a project made with complete HTML, CSS, Javascript and React.js.",
+    "source": "https://portfolio-pi-six-33.vercel.app/"
+  },
+  {
+    "key": 5,
     "title": "Stone, Paper and Scissors",
     "imageSrc": "../images/rpsgame.png",
     "description": "This is a project made with complete HTML, CSS and Javascript.",
@@ -8,7 +37,7 @@
     "source":"https://newproject-phi-drab.vercel.app/"
   } , 
   {
-      "key": 5,
+      "key": 6,
       "title": "Dice Game",
       "imageSrc":"../images/dice.webp",
       "description": "This is a project made with complete HTML, CSS,Javascript and React js.",
@@ -16,28 +45,16 @@
       "source": "https://github.com/namrata1218/dice_game"
     },
 
+   
+    
     {
-      "key": 1,
-      "title": "Shopping Website",
-      "imageSrc": "../images/shop.png",
-      "description": "This is a project made with complete Next js and Tailwind CSS.    .    ",
-     
-      "source": "https://shopping-website-y395-r5dq7im2o-namrata1218s-projects.vercel.app"
-    },
-    {
-      "key": 2,
-      "title": "My Portfolio",
-      "imageSrc": "../images/portfolio.png",
-      "description": "This is a project made with complete HTML, CSS, Javascript and React.js.",
-      "source": "https://portfolio-pi-six-33.vercel.app/"
-    },
-    {
-      "key": 4,
+      "key": 7,
       "title": "Customer Segmentation",
       "imageSrc": "../images/customer.png ",
       "description":"Applied Python and machine learning for customer segmentation, optimizing marketing strategies, analyzed customer behavior with clustering algorithm.",
       "source": "https://github.com/namrata1218/Customer_Segmentation"
     }
+   
 
    
     

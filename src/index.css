@@ -8,9 +8,19 @@
     box-sizing: border-box;
    
 }
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
 body{
     background-color: rgb(11, 26, 51);
     color: white;
+    
+   margin: 0;
+   padding: 0;
+   overflow-x: hidden;
+
     
 }
 
@@ -34,37 +44,76 @@ a{
     font-size: 1.5rem;
     font-weight: bold;
 }
-
-.right i{
-    display:none ;
+.nav-btn{
+    display: none;
+    border: none;
     color: #F8C90D;
-    font-weight: 700;
-    font-size:1.8vw;
-   margin-left: 12px;
-
+    width: 25px;
+    font-size:x-large;
+    height: 35px;
+    outline: none;
+    background:transparent;
 }
+
+
 a:hover{
     border-bottom: 3px solid#F8C90D;
 }
 @media(max-width:758px){
-    
-    .nav-items{
+    .nav-items {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+      }
+      
+      .nav-btn{
+        /* display: none; */
         display: block;
-    }
-    .home .left{
-        width:400px ;
+    background: none;
+    border: none;
+    color: #F8C90D;
+    font-size: 2rem;
+    cursor: pointer;
     }
     
-    .right i{
-       
+      .nav_items {
+        font-size: 3vw;
+        margin: 10px;
+      }
+    
+      .left h3 {
+        font-size: 6vw;
+         position: fixed;
+      }
+      .mobile-nav_items{
         
-        display: block;
-        color: #F8C90D;
-        font-weight: 700;
-        font-size:1.8vw;
-       margin-left: 12px;
+        position: relative;
+        z-index: 99; 
+     }
+     .mobile-nav_items a  {
+         height: 3rem;
+         
+         display: flex;
+         justify-content: space-around;
+         flex-direction: column;
+         align-items: start;
+       }
+     .mobile-nav_items{
+         background-color:#1b1b42;
+        
+         height: 28rem;
+         width:100%;
+        
+         align-items: center;
+         padding: 3rem;
+         transition: all 2s linear;
+         transform-origin:top ;
+         box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+         rgba(0, 0, 0, 0.3), 0px 30px 60px -30px;
+     }
+     
     
-    }
     
     a{
         font-size: 3vw;
@@ -74,14 +123,7 @@ a:hover{
     .left h2{
         font-size: 6vw;
     }
-    .right i{
-       color: #F8C90D;
-        font-weight: 700;
-        font-size:6vw;
-        cursor: pointer;
-
-
-    }
+   
     
     .card{
         margin-left:30px ;
@@ -97,7 +139,12 @@ a:hover{
     .img img{
         display: none;
     } 
+    .skills .items .item {
+        width: 100%;
+        margin: 10px 0;
+    }
 }
+
 /*home section*/
 .home{
     display: flex;

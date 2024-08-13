@@ -4,7 +4,13 @@ import pdf from "../src/pdf/Namrata_webdevelopment_resume.pdf";
 import Typed from 'typed.js';
 
 const Home = () => {
-  const typedRef=useRef(null)
+  <div id="app">
+  <div id="hero">
+    
+  </div>
+</div>
+  const typedRef=useRef(null);
+
   useEffect(()=>{
     const options ={
       strings:["Welcome to my profile.","My name is Namrata Shakya.","I'm MERN stack developer."],
@@ -16,8 +22,10 @@ const Home = () => {
     return ()=>{
       typed.destroy()
     }
-  },[])
+  },[]);
+  
   return (<>
+
     <div className='container home' id='home'>
      <div className="left" data-aos="fade-up-right"
     data-aos-duration="1000">
@@ -37,6 +45,7 @@ const Home = () => {
       </div>
     
     </div>
+   
     </div>
     </>
   )

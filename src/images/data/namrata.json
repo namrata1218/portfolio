@@ -1,38 +1,15 @@
 [
   {
     "id": 1,
-    "role": "Senior Software Development Engineer SDE - II",
-    "organisation": "Google",
-    "startDate": "Sept, 2023",
-    "endDate": "Present",
-    "location": "CA,United State",
+    "role": "Web Developer Intern",
+    "organisation": "CodeSoft",
+    "startDate": "Oct, 2023",
+    "endDate": "Nov, 2023",
+    "location": "Virtual",
     "experiences": [
-      "Worked on Google Gmail",
-      "Worked with the Google Bard Team"
-    ]
-  },
-  {
-    "id": 2,
-    "role": "Software Development Engineer SDE - I",
-    "organisation": "Mirosoft",
-    "startDate": "Aug, 2022",
-    "endDate": "Aug, 2023",
-    "location": "London, UK",
-    "experiences": [
-      "Worked on Windows 10 terminal",
-      "Worked on Window 11 Upcoming features"
-    ]
-  },
-  {
-    "id": 3,
-    "role": "Software Development Engineer - Intern",
-    "organisation": "Netflix",
-    "startDate": "Apr, 2021",
-    "endDate": "Jun, 2022",
-    "location": "Bengluru, India",
-    "experiences": [
-      "Worked on Nextflix payment system",
-      "Helped to create UI for video player"
+      "Worked on making dynamic websites.",
+      "Worked with the CodeSoft Team"
     ]
   }
+  
 ]

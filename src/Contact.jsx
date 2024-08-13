@@ -4,6 +4,7 @@ import { FaGithub } from "react-icons/fa6";
 import { MdMailOutline } from "react-icons/md";
 import { FaWhatsapp } from "react-icons/fa";
 const Contact=()=>{
+    
     return(
         <>
         <div className="container contact" id="contact">
@@ -17,6 +18,7 @@ const Contact=()=>{
             <a  target="_blank" rel="noopener noreferrer" href="https://wa.me/9369203390" className="items"><FaWhatsapp className="icons"/></a>
         </div>
         </div>
+        
         </>
     )
 }
