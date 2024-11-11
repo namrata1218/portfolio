@@ -3,7 +3,7 @@ import experience from "./images/data/namrata.json";
 
 const Namrata = () => {
   return (
-    <div className="container ex" id="experience">
+    <div className="container experience" id="experience">
       <h1>EXPERIENCE</h1>
       {experience.map((data) => {
         return (

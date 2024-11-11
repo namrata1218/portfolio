@@ -1,0 +1,20 @@
+
+.spinner{
+    background-color: #fff;
+    display: flex;
+    height: 100vh; 
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+.spinner img{
+    width: 300px;
+    height: 300px;
+}
+.spinner-container{
+    display: flex;
+    flex-direction:column ;
+}
+.spinner-container p{
+    color: black;
+}

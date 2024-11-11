@@ -11,13 +11,13 @@ const Skills=()=>{
 
         <div className="container skills" id="skills">
         <h1>SKILLS</h1>
-        <div className="items" >
+        <div className="items " >
         
         {
             skills.map((data)=>(
                 <>
                 
-                <div className="item" key={data.id}
+                <div className="item skill-forsmall" key={data.id}
                 data-aos="flip-left"
                 data-aos-duratio="1000">
                 <img src={data.imageSrc} alt="icon" />
